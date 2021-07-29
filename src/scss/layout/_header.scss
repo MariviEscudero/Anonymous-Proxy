@@ -5,6 +5,7 @@
   color: $headerfontcolor;
   background-color: $headerbgcolor;
   background-image: url("../images/cover.jpg");
+  background-attachment: fixed;
   background-size: cover;
 
   display: flex;
@@ -28,21 +29,21 @@
   .header__title {
     font-family: $robotoslab;
     font-size: 42px;
-    width: 10em;
+    width: 7em;
     line-height: 55px;
     text-transform: uppercase;
     text-align: center;
-    margin: 284px 15px 10px 15px;
+    margin: 244px 15px 10px 15px;
 
     @media (min-width: 768px) {
       font-size: 80px;
       line-height: 106px;
-      margin: 295px 39px 20px 39px;
+      margin: 140px 39px 20px 39px;
     }
     @media (min-width: 1200px) {
       font-size: 100px;
       line-height: 132px;
-      margin: 300px 275px 0px 275px;
+      margin: 210px 275px 0px 275px;
     }
   }
 
