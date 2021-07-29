@@ -5,9 +5,8 @@
   color: $headerfontcolor;
   background-color: $headerbgcolor;
   background-image: url("../images/cover.jpg");
-  background-attachment: fixed;
   background-size: cover;
-
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
