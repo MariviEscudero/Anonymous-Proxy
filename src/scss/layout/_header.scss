@@ -33,6 +33,17 @@
     text-transform: uppercase;
     text-align: center;
     margin: 284px 15px 10px 15px;
+
+    @media (min-width: 768px) {
+      font-size: 80px;
+      line-height: 106px;
+      margin: 295px 39px 20px 39px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 100px;
+      line-height: 132px;
+      margin: 300px 275px 0px 275px;
+    }
   }
 
   .header__text {
@@ -40,6 +51,17 @@
     font-size: 16px;
     line-height: 16px;
     margin: 0px 15px 0px 15px;
+
+    @media (min-width: 768px) {
+      font-size: 24px;
+      line-height: 24px;
+      margin: 0px 165px 0px 165px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 24px;
+      line-height: 24px;
+      margin: 0px 275px 0px 275px;
+    }
   }
   .header__seclink {
     background-color: $headerscrollcolor;
@@ -50,5 +72,11 @@
     height: 45px;
     border-radius: 45px;
     margin: 45px 138px 53px 138px;
+    @media (min-width: 768px) {
+      margin: 30px 361px 45px 362px;
+    }
+    @media (min-width: 1200px) {
+      margin: 30px 618px 13px 618px;
+    }
   }
 }
