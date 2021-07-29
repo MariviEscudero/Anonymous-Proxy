@@ -1,10 +1,12 @@
 .header {
+  /*---------------------------la imagen da error*/
   width: 100vw;
   height: 100vh;
   color: $headerfontcolor;
   background-color: $headerbgcolor;
   background-image: url("../images/cover.jpg");
   background-size: cover;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,6 +16,7 @@
     position: fixed;
     top: 0;
     bottom: 0;
+    left: 0;
     background-color: $hamburgermenu;
     width: 44px;
     height: 44px;
@@ -23,19 +26,20 @@
     }
   }
   .header__title {
-    font-weight: 5em;
+    font-family: $robotoslab;
     font-size: 42px;
+    width: 10em;
     line-height: 55px;
-    font-weight: 6em;
     text-transform: uppercase;
     text-align: center;
     margin: 284px 15px 10px 15px;
   }
+
   .header__text {
     font-family: $roboto;
     font-size: 16px;
     line-height: 16px;
-    margin-bottom: 45px;
+    margin: 0px 15px 0px 15px;
   }
   .header__seclink {
     background-color: $headerscrollcolor;
@@ -45,6 +49,6 @@
     width: 45px;
     height: 45px;
     border-radius: 45px;
-    margin: 0px 137px 53px 138px;
+    margin: 45px 138px 53px 138px;
   }
 }
