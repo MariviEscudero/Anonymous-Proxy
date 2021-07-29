@@ -5,6 +5,10 @@
   background-color: $headerbgcolor;
   background-image: url("../images/cover.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   .header__menu {
     position: fixed;
@@ -17,5 +21,30 @@
     &--image {
       padding: 14px 15px 14px 15px;
     }
+  }
+  .header__title {
+    font-weight: 5em;
+    font-size: 42px;
+    line-height: 55px;
+    font-weight: 6em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 284px 15px 10px 15px;
+  }
+  .header__text {
+    font-family: $roboto;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 45px;
+  }
+  .header__seclink {
+    background-color: $headerscrollcolor;
+    background-image: url("../images/ico-scroll-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    margin: 0px 137px 53px 138px;
   }
 }
