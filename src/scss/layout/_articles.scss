@@ -45,5 +45,11 @@
     border-radius: 45px;
     margin-left: auto;
     margin-right: auto;
+    transition: transform border-color background-color ease-in-out 1s;
+    &:hover {
+      transform: scale(1.5);
+      background-color: #0271bc;
+      border-color: #0271bc;
+    }
   }
 }
