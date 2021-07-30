@@ -1,5 +1,4 @@
 .header {
-  /*---------------------------la imagen da error*/
   width: 100vw;
   height: 100vh;
   color: $headerfontcolor;
@@ -20,7 +19,6 @@
     background-color: $hamburgermenu;
     width: 44px;
     height: 44px;
-
     &--image {
       padding: 14px 15px 14px 15px;
     }
@@ -45,7 +43,6 @@
       margin: 210px 275px 0px 275px;
     }
   }
-
   .header__text {
     font-family: $roboto;
     font-size: 16px;
@@ -58,8 +55,6 @@
       margin: 0px 165px 0px 165px;
     }
     @media (min-width: 1200px) {
-      font-size: 24px;
-      line-height: 24px;
       margin: 0px 275px 0px 275px;
     }
   }
