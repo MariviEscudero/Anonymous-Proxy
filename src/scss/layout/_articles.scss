@@ -1,6 +1,49 @@
 .section1 {
+  font-family: $roboto;
   background-color: $articlebgcolor;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 30 93px 93px 93px 45;
+  grid-template-rows: 60px 93px 93px 93px 45px 15px;
+  row-gap: 45px;
+  text-align: center;
+
+  .section1__title {
+    font-family: $robotoslab;
+    font-size: 24px;
+    text-transform: capitalize;
+    line-height: 30px;
+    padding-top: 30px;
+  }
+  .section1__article {
+    display: grid;
+    grid-template-columns: 1fr 180px 1fr;
+    grid-template-rows: 30px 63px;
+
+    .section1__article--title {
+      font-family: $robotoslab;
+      font-size: 18px;
+      line-height: 30px;
+      grid-column-start: 2;
+    }
+    .section1__article--text {
+      font-size: 18px;
+      line-height: 30px;
+      width: 10em;
+      grid-column-start: 2;
+    }
+  }
+  .section1__button {
+    font-size: 18px;
+    line-height: 2;
+    text-decoration: none;
+    color: $white;
+    background-color: $buttonscolor;
+    font-weight: bold;
+    border: 2px solid $buttonscolor;
+    height: 45px;
+    width: 184px;
+    border-radius: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
