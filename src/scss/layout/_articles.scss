@@ -101,9 +101,21 @@
     height: 45px;
     border-radius: 45px;
     margin: 0px auto 0px auto;
-
+    &:hover {
+      animation-name: moveup;
+      animation-duration: 1.5s;
+      animation-iteration-count: 1;
+    }
     @media (min-width: 768px) {
       grid-column: 1 / 4;
+    }
+  }
+  @keyframes moveup {
+    from {
+      transform: translateY(0px) scale(1);
+    }
+    to {
+      transform: translateY(-20px) scale(1.5);
     }
   }
 }
