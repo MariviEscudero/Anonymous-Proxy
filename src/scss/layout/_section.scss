@@ -1,7 +1,7 @@
 .section {
   font-family: $roboto;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 100vw;
   grid-template-rows: 71px 60px 135px 120px;
   text-transform: capitalize;
 
@@ -12,6 +12,7 @@
     grid-template-rows: 90px 45px 90px 135px;
   }
   .section__small {
+    width: 100vw;
     color: $insomniacolor;
     font-size: 14px;
     line-height: 14px;
@@ -48,6 +49,7 @@
     }
   }
   .section__text {
+    width: 100vh;
     font-size: 18px;
     color: $textsectcolor;
     line-height: 30px;

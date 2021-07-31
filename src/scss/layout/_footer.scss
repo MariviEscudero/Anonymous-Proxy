@@ -5,7 +5,6 @@
   font-family: $roboto;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 400;
 }
 .footer__container {
   display: flex;
@@ -58,17 +57,20 @@
 @media (min-width: 768px) {
   .footer__container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
   }
   .footer__nav--list1 {
     align-items: flex-start;
+    order: 1;
   }
   .footer__nav--list2 {
     align-items: flex-start;
+    order: 1;
   }
   .footer__small {
     align-items: flex-start;
+    order: -2;
   }
 }
