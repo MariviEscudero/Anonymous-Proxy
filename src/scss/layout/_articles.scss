@@ -3,7 +3,7 @@
   background-color: $articlebgcolor;
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 60px 93px 93px 93px 45px 15px;
+  grid-template-rows: 60px 93px 93px 93px 45px 60px;
   row-gap: 45px;
   text-align: center;
 
@@ -97,5 +97,14 @@
     @media (min-width: 1200px) {
       width: 255px;
     }
+  }
+  .section1__headerlink {
+    background-color: $headerscrollcolor;
+    background-image: url("../images/ico-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
   }
 }

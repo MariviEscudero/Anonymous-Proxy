@@ -51,16 +51,7 @@
   padding: 0px 0px 45px 0px;
 }
 
-.footer__seclink {
-  position: absolute;
-  background-color: $headerscrollcolor;
-  background-image: url("../images/ico-arrow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 45px;
-  height: 45px;
-  border-radius: 45px;
-}
+
 @media (min-width: 768px) {
   .footer__container {
     display: flex;
