@@ -65,18 +65,21 @@
   .footer__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
   }
   .footer__nav--list1 {
+    width: 210px;
     align-items: flex-start;
     order: 1;
   }
   .footer__nav--list2 {
+    width: 210px;
     align-items: flex-start;
     order: 1;
   }
   .footer__small {
+    width: 210px;
     align-items: flex-start;
     order: -2;
   }
@@ -87,7 +90,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    flex-grow: 30px;
   }
   .footer__nav--list1 {
     width: 161px;
