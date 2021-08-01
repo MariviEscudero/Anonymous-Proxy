@@ -26,7 +26,6 @@
   text-decoration: none;
   color: white;
 }
-
 .footer__nav--list2 {
   list-style-type: none;
   text-transform: uppercase;
@@ -41,7 +40,6 @@
   text-decoration: none;
   color: white;
 }
-
 .footer__small {
   display: flex;
   flex-direction: column;
@@ -54,7 +52,6 @@
   font-family: "Dingbat", sans-serif;
   color: $footerheart;
 }
-
 @media (min-width: 768px) {
   .footer__container {
     display: flex;

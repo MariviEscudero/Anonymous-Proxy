@@ -5,7 +5,6 @@
   grid-template-columns: 100%;
   grid-template-rows: 71px 60px 135px 120px;
   text-transform: capitalize;
-
   @media (min-width: 768px) {
     grid-template-rows: 60px 45px 90px 135px;
   }
@@ -18,7 +17,6 @@
     font-size: 14px;
     line-height: 14px;
     margin: 45px 0px 0px 15px;
-
     @media (min-width: 768px) {
       margin: 30px 0px 0px 39px;
       line-height: 30px;
@@ -36,14 +34,12 @@
     width: 10em;
     line-height: 30px;
     margin-left: 15px;
-
     @media (min-width: 768px) {
       font-size: 26px;
       line-height: 45px;
       width: 20em;
       margin-left: 39px;
     }
-
     @media (min-width: 1200px) {
       margin-left: 275px;
       font-size: 32px;
@@ -57,7 +53,6 @@
     text-transform: initial;
     margin-left: 15px;
     margin-top: 15px;
-
     @media (min-width: 768px) {
       font-size: 20px;
       line-height: 30px;
@@ -89,7 +84,6 @@
       color: tomato;
       border: tomato;
     }
-
     @media (min-width: 768px) {
       width: 91px;
       margin-left: 39px;
