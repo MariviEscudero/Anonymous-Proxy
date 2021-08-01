@@ -49,8 +49,11 @@
   padding: 0px 0px 45px 0px;
 }
 .heart {
-  font-family: "Dingbat", sans-serif;
+  display: inline-block;
+  font-family: "unicode";
   color: $footerheart;
+  transform: rotate(90deg);
+  padding: 3px;
 }
 @media (min-width: 768px) {
   .footer__container {
